@@ -1,1 +1,2 @@
-
+# Use CertUtil in Windows to generate file hashes
+CertUtil -hashfile C:\<file path> MD5, SHA1, SHA256, etc
