@@ -1,4 +1,3 @@
 # Use CertUtil in Windows to generate file hashes
 CertUtil -hashfile C:\<file path> MD5
-
 #It is possible to generate checksums for other hash algorithms like MD2, MD4, MD5, SHA1, SHA256, SHA364, SHA512 by replacing the MD5 parameter used above (if you don’t specify a value then SHA1 is used by default)
